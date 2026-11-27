@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#102744">
+  <meta name="description" content="Solutec — Soluciones que conectan. Desarrollo de software a medida, sistemas de gestión y presencia digital para empresas.">
+  <title>Solutec — Soluciones que conectan</title>
+
+  <link rel="icon" type="image/svg+xml" href="assets/logo-hub.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Solutec — inicio">
+        <img class="brand__mark" src="assets/logo-hub.svg" alt="">
+        <span class="brand__name">Solutec<span class="brand__dot">.</span></span>
+      </a>
+
+      <nav class="nav" id="mainNav" aria-label="Navegación principal">
+        <a href="#soluciones">Soluciones</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#proceso">Cómo trabajamos</a>
+        <a href="#nosotros">Nosotros</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn--primary btn--sm" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="inicio">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__copy" data-reveal>
+          <span class="eyebrow"><span class="eyebrow__dot"></span> Soluciones que conectan</span>
+          <h1 class="hero__title">La tecnología<br>que tu negocio<br><em>necesita.</em></h1>
+          <p class="hero__lead">Diseñamos y desarrollamos sistemas que ordenan tus procesos, conectan tus equipos y hacen crecer tu operación. Simple, a medida y hecho para durar.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#proyectos">Ver proyectos <span aria-hidden="true">↗</span></a>
+            <a class="btn btn--ghost" href="#contacto">Empezar un proyecto</a>
+          </div>
+          <div class="hero__trust">
+            <div class="avatars" aria-hidden="true"><span>GF</span><span>MP</span><span>UL</span><span>+9</span></div>
+            <p><strong>25+ empresas</strong> confían en nuestros sistemas</p>
+          </div>
+        </div>
+
+        <div class="hero__visual" data-reveal data-reveal-delay="1" aria-hidden="true">
+          <div class="hub">
+            <svg class="hub__svg" viewBox="0 0 520 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g class="hub__rings">
+                <circle cx="260" cy="260" r="228" stroke="#A9B8C8" stroke-opacity=".35"/>
+                <circle cx="260" cy="260" r="160" stroke="#A9B8C8" stroke-opacity=".5"/>
+                <path d="M260 32v456M32 260h456" stroke="#A9B8C8" stroke-opacity=".18"/>
+              </g>
+              <g class="hub__lines" stroke="#1769AA" stroke-opacity=".55" stroke-width="1.6">
+                <line x1="260" y1="260" x2="260" y2="100"/>
+                <line x1="260" y1="260" x2="388" y2="186"/>
+                <line x1="260" y1="260" x2="388" y2="334"/>
+                <line x1="260" y1="260" x2="260" y2="420"/>
+                <line x1="260" y1="260" x2="132" y2="334"/>
+                <line x1="260" y1="260" x2="132" y2="186"/>
+              </g>
+              <g class="hub__spokes" fill="#F4F7FA" stroke="#102744" stroke-width="3">
+                <circle cx="260" cy="100" r="11"/>
+                <circle cx="388" cy="186" r="11"/>
+                <circle cx="388" cy="334" r="11"/>
+                <circle cx="260" cy="420" r="11"/>
+                <circle cx="132" cy="334" r="11"/>
+                <circle cx="132" cy="186" r="11"/>
+              </g>
+              <g class="hub__pulse"><circle cx="260" cy="260" r="56" fill="#1769AA" fill-opacity=".14"/></g>
+              <circle class="hub__core" cx="260" cy="260" r="38" fill="#1769AA"/>
+              <circle cx="260" cy="260" r="13" fill="#F4F7FA"/>
+            </svg>
+
+            <div class="hub-card hub-card--top">
+              <span class="hub-card__icon">↗</span>
+              <div><strong>Procesos optimizados</strong><small>Tiempo ahorrado: 38%</small></div>
+            </div>
+            <div class="hub-card hub-card--right">
+              <span class="hub-card__icon">◈</span>
+              <div><strong>Todo conectado</strong><small>6 módulos activos</small></div>
+            </div>
+            <div class="hub-card hub-card--bottom">
+              <span class="hub-card__icon">✓</span>
+              <div><strong>Datos en vivo</strong><small>Actualizado ahora</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="stats" data-reveal>
+          <div class="stat"><strong data-count="8" data-suffix="+">0</strong><span>Años desarrollando</span></div>
+          <div class="stat"><strong data-count="40" data-suffix="+">0</strong><span>Proyectos entregados</span></div>
+          <div class="stat"><strong data-count="25" data-suffix="+">0</strong><span>Clientes activos</span></div>
+          <div class="stat"><strong data-count="99" data-suffix=".9%">0</strong><span>Disponibilidad</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SOLUCIONES ================= -->
+    <section class="section" id="soluciones">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Qué hacemos</span>
+          <h2 class="section-title">Soluciones pensadas<br>para <em>conectar</em> tu operación</h2>
+          <p class="section-lead">Cada empresa es distinta. Por eso construimos herramientas que se adaptan a tu forma de trabajar, no al revés.</p>
+        </div>
+
+        <div class="solutions-grid">
+          <article class="solution-card" data-reveal>
+            <div class="solution-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+            </div>
+            <span class="solution-card__num">01</span>
+            <h3>Sistemas de gestión</h3>
+            <p>ERPs y módulos administrativos para controlar ventas, stock, compras y finanzas desde un solo lugar.</p>
+            <ul><li>Inventario y logística</li><li>Facturación y reportes</li><li>Control de acceso por rol</li></ul>
+          </article>
+
+          <article class="solution-card" data-reveal data-reveal-delay="1">
+            <div class="solution-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 17V7a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v10"/><path d="M4 17h16"/><path d="M9 17v-5h6v5"/><path d="M12 4v3"/></svg>
+            </div>
+            <span class="solution-card__num">02</span>
+            <h3>Software a medida</h3>
+            <p>Desarrollos custom que resuelven necesidades específicas: automatizaciones, paneles y apps internas.</p>
+            <ul><li>Diagnóstico y arquitectura</li><li>Desarrollo iterativo</li><li>Evolución continua</li></ul>
+          </article>
+
+          <article class="solution-card" data-reveal data-reveal-delay="2">
+            <div class="solution-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a15 15 0 0 1 0 18"/><path d="M12 3a15 15 0 0 0 0 18"/></svg>
+            </div>
+            <span class="solution-card__num">03</span>
+            <h3>Presencia digital</h3>
+            <p>Landing pages y sitios corporativos que comunican, convierten y funcionan en cualquier pantalla.</p>
+            <ul><li>Diseño UI/UX</li><li>Desarrollo responsive</li><li>Optimización y analítica</li></ul>
+          </article>
+
+          <article class="solution-card" data-reveal data-reveal-delay="3">
+            <div class="solution-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M10 13a5 5 0 0 0 7.5.5l2-2A5 5 0 0 0 12.5 4l-1 1"/><path d="M14 11a5 5 0 0 0-7.5-.5l-2 2A5 5 0 0 0 11.5 20l1-1"/></svg>
+            </div>
+            <span class="solution-card__num">04</span>
+            <h3>Integraciones</h3>
+            <p>Conectamos tus sistemas existentes para que los datos fluyan sin copiar ni pegar.</p>
+            <ul><li>APIs y webhooks</li><li>Migración de datos</li><li>Automatizaciones</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROYECTOS ================= -->
+    <section class="section section--tint" id="proyectos">
+      <div class="container">
+        <div class="section-head section-head--split" data-reveal>
+          <div>
+            <span class="eyebrow">Portafolio</span>
+            <h2 class="section-title">Proyectos que<br><em>resuelven</em></h2>
+          </div>
+          <p class="section-lead">Sistemas que hoy están en operación, mejorando procesos reales de empresas reales.</p>
+        </div>
+
+        <div class="filters" id="projectFilters" role="group" aria-label="Filtrar proyectos" data-reveal></div>
+        <div class="projects-grid" id="projectsGrid" data-reveal></div>
+
+        <div class="section-foot" data-reveal>
+          <p>¿Querés ver el detalle de alguno?</p>
+          <a class="link-arrow" href="#contacto">Hablemos de tu proyecto <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROCESO ================= -->
+    <section class="section" id="proceso">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Metodología</span>
+          <h2 class="section-title">De la idea a la <em>solución</em></h2>
+          <p class="section-lead">Un proceso claro, sin sorpresas y con resultados que se ven desde la primera entrega.</p>
+        </div>
+
+        <div class="process">
+          <article class="process__step" data-reveal>
+            <span class="process__num">01</span>
+            <h3>Diagnóstico</h3>
+            <p>Entendemos tu operación, tus dolores y lo que querés lograr. Juntos definimos el alcance.</p>
+          </article>
+          <article class="process__step" data-reveal data-reveal-delay="1">
+            <span class="process__num">02</span>
+            <h3>Diseño</h3>
+            <p>Convertimos los requerimientos en interfaces y flujos que se validan antes de programar.</p>
+          </article>
+          <article class="process__step" data-reveal data-reveal-delay="2">
+            <span class="process__num">03</span>
+            <h3>Desarrollo</h3>
+            <p>Construimos por iteraciones, con entregas frecuentes y feedback constante de tu equipo.</p>
+          </article>
+          <article class="process__step" data-reveal data-reveal-delay="3">
+            <span class="process__num">04</span>
+            <h3>Evolución</h3>
+            <p>Desplegamos, capacitamos y seguimos acompañando el sistema a medida que tu negocio crece.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= NOSOTROS ================= -->
+    <section class="section section--dark" id="nosotros">
+      <div class="container nosotros">
+        <div class="nosotros__copy" data-reveal>
+          <span class="eyebrow eyebrow--light">Nosotros</span>
+          <h2 class="section-title section-title--light">Conectamos personas,<br>procesos e <em>ideas.</em></h2>
+          <p class="section-lead section-lead--light">Somos un equipo de desarrollo enfocado en construir herramientas que la gente quiera usar. Creemos en la simplicidad, en el código bien hecho y en las relaciones a largo plazo.</p>
+          <div class="values">
+            <div class="value"><span>01</span><div><strong>Cercanía</strong><p>Hablamos tu idioma, sin tecnicismos innecesarios.</p></div></div>
+            <div class="value"><span>02</span><div><strong>Claridad</strong><p>Sabés qué se está haciendo y por qué, en cada etapa.</p></div></div>
+            <div class="value"><span>03</span><div><strong>Confianza</strong><p>Sistemas robustos, documentados y listos para crecer.</p></div></div>
+          </div>
+        </div>
+        <div class="nosotros__aside" data-reveal data-reveal-delay="1">
+          <blockquote class="quote">
+            <span class="quote__mark" aria-hidden="true">“</span>
+            <p>Nos acompañaron desde el diagnóstico hasta el despliegue. Hoy el sistema es parte del día a día de nuestro equipo.</p>
+            <footer><strong>María González</strong><span>Gerente de Operaciones · Cliente demo</span></footer>
+          </blockquote>
+          <div class="aside-card">
+            <img src="assets/logo-hub.svg" alt="">
+            <div><strong>Soluciones que conectan</strong><span>Nuestra promesa, en cada proyecto.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACTO ================= -->
+    <section class="section contact" id="contacto">
+      <div class="container contact__inner">
+        <div class="contact__copy" data-reveal>
+          <span class="eyebrow">Contacto</span>
+          <h2 class="section-title">¿Hacemos que<br><em>conecte?</em></h2>
+          <p class="section-lead">Contanos qué necesitás y te respondemos con una propuesta concreta. Sin compromiso.</p>
+
+          <div class="contact-list">
+            <div class="contact-item">
+              <span class="contact-item__icon" aria-hidden="true">✉</span>
+              <div><span>Email</span><a href="mailto:hola@solutec.com.ar">hola@solutec.com.ar</a></div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-item__icon" aria-hidden="true">☎</span>
+              <div><span>Teléfono</span><a href="tel:+541155550142">+54 11 5555-0142</a></div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-item__icon" aria-hidden="true">⌖</span>
+              <div><span>Ubicación</span><p>Buenos Aires, Argentina · Remoto</p></div>
+            </div>
+          </div>
+
+          <div class="contact-person">
+            <div class="contact-person__avatar" aria-hidden="true">MF</div>
+            <div><strong>Martín Fernández</strong><span>Lead de proyectos · Solutec</span></div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate data-reveal data-reveal-delay="1">
+          <div class="form-row">
+            <label>Nombre<input type="text" name="nombre" placeholder="Tu nombre" required></label>
+            <label>Empresa<input type="text" name="empresa" placeholder="Nombre de tu empresa"></label>
+          </div>
+          <div class="form-row">
+            <label>Email<input type="email" name="email" placeholder="tu@empresa.com" required></label>
+            <label>Teléfono<input type="tel" name="telefono" placeholder="+54 9 11 ..."></label>
+          </div>
+          <label>¿Qué necesitás?<textarea name="mensaje" rows="5" placeholder="Contanos un poco sobre tu proyecto..." required></textarea></label>
+          <button class="btn btn--primary btn--full" type="submit">Enviar consulta <span aria-hidden="true">↗</span></button>
+          <p class="form-note">Al enviar aceptás que usemos tus datos para responderte. Nada de spam, prometido.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="#inicio">
+          <img class="brand__mark" src="assets/logo-hub.svg" alt="">
+          <span class="brand__name">Solutec<span class="brand__dot">.</span></span>
+        </a>
+        <p>Soluciones que conectan.<br>Tecnología hecha a tu medida.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Enlaces del pie">
+        <div><strong>Navegación</strong><a href="#soluciones">Soluciones</a><a href="#proyectos">Proyectos</a><a href="#proceso">Proceso</a></div>
+        <div><strong>Empresa</strong><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a><a href="#contacto">Trabajá con nosotros</a></div>
+        <div><strong>Contacto</strong><a href="mailto:hola@solutec.com.ar">hola@solutec.com.ar</a><a href="tel:+541155550142">+54 11 5555-0142</a><span>Buenos Aires, AR</span></div>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Solutec. Todos los derechos reservados.</p>
+      <p>Diseñado con <span aria-label="amor">♥</span> y un poco de código.</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
